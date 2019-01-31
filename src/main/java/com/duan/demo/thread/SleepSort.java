@@ -25,7 +25,7 @@ public class SleepSort implements Runnable {
 
 
     public static void main(String[] args) {
-        int[] a = new int[]{10,33,34,55,22,11};
+        int[] a = new int[]{10,33,34,55,22,11,1,7,1};
 
         for (int i = 0; i <a.length ; i++) {
             new Thread(new SleepSort(a[i]+"")).start();
